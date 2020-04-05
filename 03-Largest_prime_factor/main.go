@@ -10,6 +10,11 @@ import (
 	"fmt"
 )
 
+// PrimeFactors - Takes in a value and creates an array of Prime
+// Factor numbers.
+//
+// Converted from C++ with a little help from another solution.
+// It will need to be updated at a later date.
 func PrimeFactors(n int64) (a []int64) {
 
 	for n%2 == 0 {

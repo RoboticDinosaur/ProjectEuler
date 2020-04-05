@@ -30,9 +30,9 @@ func CheckPalindrome(number int) bool {
 	}
 	if temp == reverse {
 		return true
-	} else {
-		return false
 	}
+
+	return false
 
 }
 
